@@ -1,0 +1,24 @@
+# Introduction
+
+## Heyo!
+
+We're doing things with Livebooks today.😀
+
+![](images/00-introduction_avatar_and_name.png.png)
+
+![](https://pragprog.com/titles/lmelixir/testing-elixir/lmelixir.jpg)
+
+## What Are We Talking About
+
+Asynchronous processing in Elixir. Elixir has fantastic support for async computations and parallel data processing.
+
+### Asynchronous Computation
+
+We refer to **asynchronous computation** as computation that doesn't happen in the root process of the program you're running. Sometimes, this computation happens *concurrently*, while sometimes it happens *in parallel*.
+
+### Concurrent or Parallel?
+
+Most often, these are the definitions of these two concepts:
+
+* A program is **concurrent** if it executes different computations interleaved with each other
+* A program is **parallel** if those computations happen *at the same time*
