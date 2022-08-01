@@ -235,4 +235,4 @@ end)
 VisualHelpers.broadway_sup_tree(pipeline)
 ```
 
-Batching works on **batch size** plus **batch timeout**. If a batches reaches the configured size, then it gets handed to the batcher. If it doens't reach the configured size within a configurable timeout, it gets handed to the batcher anyways when the timeout expires, as we can see in the example above with the last two batches.
+Batching works on **batch size** plus **batch timeout**. If a batches reaches the configured size, then it gets handed to the batcher. If it doesn't reach the configured size within a configurable timeout, it gets handed to the batcher anyways when the timeout expires, as we can see in the example above with the last two batches.

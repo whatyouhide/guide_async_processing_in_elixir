@@ -88,7 +88,7 @@ When a process receives a message, this message ends up in the process mailbox. 
 ```mermaid
 sequenceDiagram;
   participant other_pid as Other process
-  participant pid as Proces
+  participant pid as Process
   participant mailbox as Mailbox
 
   other_pid->>pid: Send message
