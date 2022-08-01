@@ -1,5 +1,7 @@
 # Asynchronous Processing in Elixir 🏃
 
+![Cover image of some abstract lights][cover-image]
+
 This is a short interactive guide to asynchronous data processing in Elixir. It
 uses [Livebook][livebook] to show interactive Elixir snippets that you can run
 on your own machine.
@@ -55,3 +57,4 @@ See [the license file](./LICENSE.txt).
 [GenStage]: https://github.com/elixir-lang/gen_stage
 [Flow]: https://github.com/elixir-lang/flow
 [Broadway]: https://elixir-broadway.org
+[cover-image]: https://user-images.githubusercontent.com/3890250/182093532-159e5bcc-dcd7-40d7-9030-da914f3db0bb.jpg
