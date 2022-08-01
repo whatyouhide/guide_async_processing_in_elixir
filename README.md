@@ -45,6 +45,12 @@ It supports several sources (RabbitMQ, Kafka, AWS SQS, and more).
 
 [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwhatyouhide%2Fguide_async_processing_in_elixir%2Fmain%2F05-broadway.livemd)
 
+## License
+
+See [the license file](./LICENSE.txt).
+
+"Social preview" photo by [Bofu Shaw](https://unsplash.com/@hikeshaw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/speed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+
 [livebook]: https://livebook.dev
 [GenStage]: https://github.com/elixir-lang/gen_stage
 [Flow]: https://github.com/elixir-lang/flow
