@@ -67,9 +67,9 @@ result =
     Req.get!("https://baconipsum.com/api/?type=meat-and-filler&paras=50&format=text").body
   end)
   |> Stream.flat_map(fn paragraph ->
-    String.split(paragraph, "\n", trim: true)
+    String.splitter(paragraph, "\n", trim: true)
   end)
-  |> Stream.flat_map(&String.split(&1, " ", trim: true))
+  |> Stream.flat_map(&String.splitter(&1, " ", trim: true))
   |> Enum.reduce(%{}, fn word, acc ->
     Map.update(acc, word, 1, &(&1 + 1))
   end)
