@@ -217,7 +217,7 @@ You can write your own dispatcher by writing a module that implements the [`GenS
 
 ### [`GenStage.BroadcastDispatcher`](https://hexdocs.pm/gen_stage/GenStage.BroadcastDispatcher.html)
 
-This dispatcher ispatches *copies* of events to all subscribed downstream consumers. It can be usefl, for example, when the same events need to be consumed by consumers that perform different kinds of work.
+This dispatcher dispatches *copies* of events to all subscribed downstream consumers. It can be useful, for example, when the same events need to be consumed by consumers that perform different kinds of work.
 
 In the example below, you'll notice how the same random binary is printed *twice*, once for each consumer.
 
