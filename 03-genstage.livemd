@@ -170,7 +170,7 @@ defmodule Hasher do
   def handle_events(events, _from, :nostate) do
     events =
       for event <- events do
-        {event, Base.encode64(:erlang.md5(event), case: :lower)}
+        {event, Base.encode64(:erlang.md5(event))}
       end
 
     # Here, "events" is not empty.
